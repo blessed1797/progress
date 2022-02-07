@@ -1,0 +1,88 @@
+
+body{
+    background-color: bisque;
+}
+
+
+.progress {
+    margin:20px auto;
+    padding:0;
+    width:90%;
+    height:30px;
+    overflow:hidden;
+    background:#e5e5e5;
+    border-radius:6px;
+  }
+  
+  .bar {
+      position:relative;
+    float:left;
+    min-width:1%;
+    height:100%;
+    background:cornflowerblue;
+  }
+  
+  .percent {
+      position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    margin:0;
+    font-family:tahoma,arial,helvetica;
+    font-size:12px;
+    color:white;
+  }
+
+
+
+  #myProgress {
+    margin:20px auto;
+    padding:0;
+    width:90%;
+    height:30px;
+    overflow:hidden;
+    background:#e5e5e5;
+    border-radius:6px;
+  }
+  
+  #myBar {
+    width: 1%;
+    height: 30px;
+    background-color: #04AA6D;
+   
+    
+  }
+
+  #myBar2 {
+    width: 1%;
+    height: 30px;
+    background-color: #044caa;
+   
+    
+  }
+  #myBar3 {
+    width: 1%;
+    height: 30px;
+    background-color: #bf06a0;
+   
+    
+  }
+
+  #myBar4 {
+    width: 1%;
+    height: 30px;
+    background-color: #aa7604;
+   
+    
+  }
+
+
+   button{
+     color: rgb(29, 28, 28);
+     width:100px;
+     padding: 10px;
+     border-radius: 10px;
+     background-color: #bf06a0;
+     font-size: 16x;
+   }
+  
